@@ -12,10 +12,6 @@
 
 module.exports = (robot) ->
 
-  robot.respond /Hi/i, (msg) ->
-    username = msg.message.user.name
-    msg.send "Hi, @" + username
-
   robot.respond /なかよし/i, (msg) ->
     msg.send "るんるん"
 
@@ -24,3 +20,12 @@ module.exports = (robot) ->
 
   robot.respond /おちるうこ/i, (msg) ->
     msg.send "あたし!"
+
+  robot.respond /こんにちは/i, (msg) ->
+    msg.send "こんにちは～"
+
+  robot.respond /おはよう/i, (msg) ->
+    msg.send "おはよう～"
+
+  robot.respond /こんばんは/i, (msg) ->
+    msg.send "こんばんは～"
