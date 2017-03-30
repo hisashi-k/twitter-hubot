@@ -13,4 +13,6 @@
 module.exports = (robot) ->
 
   robot.respond /なかよし/i, (msg) ->
-    msg.reply "るんるん"
+#   msg.reply "るんるん"
+    msg.send "るんるん"
+    
