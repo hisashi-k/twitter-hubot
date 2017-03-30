@@ -17,6 +17,10 @@ module.exports = (robot) ->
     msg.send "Hi, @" + username
 
   robot.respond /なかよし/i, (msg) ->
-#   msg.reply "るんるん"
     msg.send "るんるん"
-    
+
+  robot.respond /飛んでみせまSHOW!/i, (msg) ->
+    msg.send "おちるうこ"
+
+  robot.respond /おちるうこ/i, (msg) ->
+    msg.send "あたし!"
