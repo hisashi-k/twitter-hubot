@@ -29,3 +29,12 @@ module.exports = (robot) ->
 
   robot.respond /こんばんは/i, (msg) ->
     msg.send "こんばんは～"
+    
+  robot.hear /かわいい/i, (msg) ->
+    msg.send "えへへ～"
+
+  robot.respond /ばき/i, (msg) ->
+    msg.send "痛い"
+
+  robot.respond /あによぉ/i, (msg) ->
+    msg.send "ふみっ"
