@@ -167,4 +167,8 @@ module.exports = (robot) ->
   robot.hear /TASM/i, (msg) -> msg.send "艦対艦攻撃型の通常弾頭付きSLCMね～。"
   robot.hear /プラウダ/i, (msg) -> msg.send "旧ソ連共産党中央委員会の日刊機関誌ね～。"
   robot.hear /毎日新聞/i, (msg) -> msg.send "外務省公電漏洩事件(沖縄密約電文漏洩事件)で、社内経営が悪化しちゃったわね～。"
+  robot.hear /アイデア/i, (msg) -> msg.send "イデー、観念とか理念ね～。"
+  robot.hear /ラッサール/i, (msg) -> msg.send "ドイツの社会主義者で、労働者階級の国家理念の実現を主張したのよね～。"
+  robot.hear /理念/i, (msg) -> msg.send "理想的な状態を考える概念ね～。"
+  robot.hear /理想的/i, (msg) -> msg.send "物事の状態が理想に合致している様子ね～。"
 # robot.hear /単語/i, (msg) -> msg.send "説明"
