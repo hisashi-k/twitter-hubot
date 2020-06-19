@@ -160,7 +160,7 @@ module.exports = (robot) ->
   robot.hear /セントリー/i, (msg) -> msg.send "アメリカのAWACSね～。"
   robot.hear /オライオン/i, (msg) -> msg.send "P3Cね～。"
   robot.hear /LRAACA/i, (msg) -> msg.send "長距離対潜哨戒機ね～。"
-  robot.hear /ビンセンス/i, (msg) -> msg.send "ペルシャ湾でイランの旅客機を誤射/撃墜しちゃったわね～。"
+  robot.hear /ビンセンス/i, (msg) -> msg.send "ペルシャ湾でイランの旅客機を誤射、撃墜しちゃったわね～。"
   robot.hear /BGM109A/i, (msg) -> msg.send "TLAM-Nね～。"
   robot.hear /TLAM-N/i, (msg) -> msg.send "陸上攻撃型の核弾頭付きSLCMね～。"
   robot.hear /BGM109B/i, (msg) -> msg.send "TASMね～。"
